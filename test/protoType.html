@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+	*{margin: 0 auto; padding: 0;}
+	body > div{font-size: 54px; display: flex; align-items: center; height: 100vh; width: 100vw;}
+</style>
+
+</head>
+<body>
+<div>
+	<div class="wrap"><b>Check <span style="color:red">CONSOLE</span>.log</b></div>
+
+</div>
+</body>
+
+<script>
+	//create obj
+	const obj = new Object({
+		name:"yash",
+		rollNo:"3"
+	})
+	console.log(obj.rollNo)
+	
+	//inheritances 2nd obj
+	const obj2 = new Object({
+		 rollNo:"6",
+		 __proto__:obj  //duble underscore
+	})
+	console.log(obj2.name)
+
+	const obj3 = new Object({
+		__proto__:obj2
+	})
+	console.log(obj3.rollNo);
+ 	
+
+
+ 	// With ARRAY
+ 	//const array_ysh =new []
+
+ 	// Create own prototype
+ 	Array.prototype.show = function function_name() {
+ 		return this;
+ 	}
+ 	const pre_name = ['Roni', 'Sunny'];
+ 	console.log(pre_name.show())
+
+ 
+</script>
+
+
+</html>
