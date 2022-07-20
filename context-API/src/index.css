@@ -23,3 +23,5 @@ code {
   margin:auto; max-width:80%; background-color: #fff; min-height: 100vh;
   box-shadow: 0 0 4px 2px #ccc; padding: 15px;
 }
+
+.test_class{color: red;}
