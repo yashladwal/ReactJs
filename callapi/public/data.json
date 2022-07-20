@@ -1,0 +1,86 @@
+[
+  {
+     "id":"1",
+     "firstName":"Homer",
+     "lastName":"Simpson",
+     "status":"Online",
+     "task":{
+        "count":"14",
+        "completed":"75%"
+     },
+     "role":"Product Manager",
+     "displayPicture":" https://vignette.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest/scale-to-width-down/72?cb=20140126234206"
+  },
+  {
+     "id":"2",
+     "firstName":"Marge",
+     "lastName":"Simpson",
+     "status":"Busy",
+     "task":{
+        "count":"14",
+        "completed":"75%"
+     },
+     "role":"Technical Manager",
+     "displayPicture":" https://vignette.wikia.nocookie.net/simpsons/images/4/4d/MargeSimpson.png/revision/latest/scale-to-width-down/78?cb=20180314071936"
+  },
+  {
+     "id":"3",
+     "firstName":"Bart",
+     "lastName":"Simpson",
+     "status":"Offline",
+     "task":{
+        "count":"64",
+        "completed":"54%"
+     },
+     "role":"Technical Manager",
+     "displayPicture":" https://vignette.wikia.nocookie.net/simpsons/images/6/65/Bart_Simpson.png/revision/latest/scale-to-width-down/87?cb=20180319061933"
+  },
+  {
+     "id":"4",
+     "firstName":"Lisa",
+     "lastName":"Simpson",
+     "status":"Online",
+     "task":{
+        "count":"60",
+        "completed":"14%"
+     },
+     "role":"Process Manager",
+     "displayPicture":" https://vignette.wikia.nocookie.net/simpsons/images/5/57/Lisa_Simpson2.png/revision/latest/scale-to-width-down/74?cb=20180319000458"
+  },
+  {
+     "id":"5",
+     "firstName":"Ned",
+     "lastName":"Flanders",
+     "status":"Offline",
+     "task":{
+        "count":"60",
+        "completed":"14%"
+     },
+     "role":"Process Manager",
+     "displayPicture":" https://vignette.wikia.nocookie.net/simpsons/images/5/57/Lisa_Simpson2.png/revision/latest/scale-to-width-down/74?cb=20180319000458"
+  },
+  {
+     "id":"6",
+     "firstName":"Abraham",
+     "lastName":"Simpson",
+     "status":"Online",
+     "task":{
+        "count":"60",
+        "completed":"74%"
+     },
+     "role":"Developer",
+     "displayPicture":" https://vignette.wikia.nocookie.net/simpsons/images/a/a9/Abraham_Simpson.png/revision/latest/scale-to-width-down/75?cb=20151011181838"
+  },
+  {
+     "id":"7",
+     "firstName":"Maggie",
+     "lastName":"Simpson",
+     "status":"Busy",
+     "task":{
+        "count":"60",
+        "completed":"14%"
+     },
+     "role":"Process Manager",
+     "displayPicture":" https://vignette.wikia.nocookie.net/simpsons/images/5/57/Lisa_Simpson2.png/revision/latest/scale-to-width-down/74?cb=20180319000458"
+  }
+]
